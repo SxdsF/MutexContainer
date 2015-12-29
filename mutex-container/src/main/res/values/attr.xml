@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="mutex">
+        <attr name="enable_reverse" format="boolean"/>
+
+        <attr name="select_mode" format="enum">
+            <enum name="selected" value="0"/>
+            <enum name="activated" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
